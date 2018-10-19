@@ -64,7 +64,7 @@ variable "azs" {
 
 variable "enable_dns_hostnames" {
   description = "Should be true to enable DNS hostnames in the VPC"
-  default     = false
+  default     = true
 }
 
 variable "enable_dns_support" {
